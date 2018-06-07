@@ -4,7 +4,7 @@
 #include <iostream>
 #include "Shape.h"
 
-class Rectangle : Shape 
+class Rectangle : public Shape 
 {
   private:
     float m_width;

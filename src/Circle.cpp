@@ -2,7 +2,7 @@
 #include <string>
 #include "Circle.h"
 
-Circle::Circle(float radius) : Shape("Rectangle")
+Circle::Circle(float radius) : Shape("Circle")
 {
     m_radius = radius;
 }

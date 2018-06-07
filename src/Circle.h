@@ -1,10 +1,10 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef CIRCLE_H
+#define CIRCLE_H
 
 #include <iostream>
 #include "Shape.h"
 
-class Circle : Shape 
+class Circle : public Shape 
 {
   private:
     float m_radius;
